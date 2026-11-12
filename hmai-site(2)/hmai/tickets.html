@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ticket office · HMAI</title><meta name="description" content="Book guided tours, conferences and workshops.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;600&family=JetBrains+Mono&display=swap">
+<link rel="stylesheet" href="assets/style.css"><script>try{var t=localStorage.getItem("hmai-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script src="assets/app.js" defer></script></head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><a class="logo" href="index.html" aria-label="HMAI home">HMAI</a><nav aria-label="Main"><a href="index.html">Home</a><a href="gallery.html">Gallery</a><a href="events.html">Events</a><a href="about.html">About Us</a><a href="contact.html">Contact Us</a></nav>
+<button class="theme" type="button" aria-label="Toggle dark mode" aria-pressed="false"><span aria-hidden="true">☀</span><i></i><span aria-hidden="true">☾</span></button>
+<label class="lang"><span class="sr">Language</span><select id="lang" aria-label="Language"><option value="fr">Français</option><option value="en" selected>English</option><option value="es">Español</option><option value="nl">Nederlands</option></select></label><a class="btn" href="tickets.html">Book tickets</a></header>
+<main id="main"><section class="head"><p class="lab">Ticket office</p><h1>Plan your visit.</h1><p class=lead>Explore freely online, or join a guide for a live tour. Students and teachers pay half price.</p></section><section class="sec two"><dl class="rates"><dt class="lab">Online visit</dt><dd>Free, open every day</dd><dt class="lab">Guided tour</dt><dd>€8 per person · 60 min</dd><dt class="lab">Conference or workshop</dt><dd>€12 per person</dd><dt class="lab">Cancellation</dt><dd>See our <a href="refund.html">refund policy</a>.</dd></dl>
+<form class="form" id="book" action="mailto:hmai.contact@gmail.com" method="post" enctype="text/plain"><p class="note">Fields marked * are required.</p>
+<div class="row"><label>Visit type<select id="type"><option value="8">Guided tour · €8</option><option value="12">Conference or workshop · €12</option></select></label><label>Date *<input type="date" id="date" required></label></div>
+<div class="row"><label>Visitors<input type="number" id="n" min="1" max="20" value="2"></label><label>Rate<select id="rate"><option value="1">Full price</option><option value="0.5">Student or teacher (half price)</option></select></label></div>
+<label>Email for your tickets *<input type="email" required autocomplete="email"></label>
+<label class="chk"><input type="checkbox" required> <span>I accept the <a href="terms.html">terms of use</a> and the <a href="refund.html">refund policy</a>. *</span></label>
+<p class="total"><span class="lab">Total</span><output id="total" aria-live="polite">€16.00</output></p><button class="btn" type="submit">Confirm booking</button></form></section></main>
+<footer><div class="fgrid"><div><a class="logo" href="index.html">HMAI</a><p>Heritage Museum of Artificial Intelligence<br><a href="mailto:hmai.contact@gmail.com">hmai.contact@gmail.com</a></p></div>
+<div><h2 class="lab">Museum</h2><ul><li><a href="gallery.html">Gallery</a></li><li><a href="events.html">Events</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact Us</a></li><li><a href="tickets.html">Tickets</a></li></ul></div>
+<div><h2 class="lab">Legal</h2><ul><li><a href="privacy.html">Privacy policy</a></li><li><a href="terms.html">Terms of use</a></li><li><a href="cookies.html">Cookie policy</a></li><li><a href="refund.html">Refund policy</a></li><li><a href="consent.html">Consent settings</a></li><li><a href="forms.html">Forms and your data</a></li></ul></div>
+<div><h2 class="lab">AI Policy</h2><ul><li><a href="ai-policy.html">Our AI policy</a></li><li><a href="ai-policy.html#transparency">Transparency</a></li><li><a href="ai-policy.html#verification">Human verification</a></li><li><a href="ai-policy.html#data">Data management</a></li></ul></div>
+<div><h2 class="lab">Follow</h2><ul><li><a href="https://www.linkedin.com/" rel="noopener">LinkedIn</a></li><li><a href="https://x.com/" rel="noopener">X</a></li><li><a href="https://www.instagram.com/" rel="noopener">Instagram</a></li></ul></div></div>
+<p class="fine">© 2026 HMAI. Fictional institution. <a href="consent.html">Cookie choices</a></p></footer></body></html>
